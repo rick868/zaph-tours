@@ -1,9 +1,9 @@
 import { Box, Typography, TextField, Button } from '@mui/material';
 export function Footer() {
     return (
-        <Box sx={{background:"lightgrey"}}>
+        <Box sx={{background:"gray"}}>
             <Box sx={{ mb: 6 }}>
-                <Typography variant="h4" gutterBottom>Newsletter Signup</Typography>
+                <Typography variant="h4" gutterBottom>Newsletter</Typography>
                 <Typography variant="body1" color="text.secondary" sx={{ mb: 2 }}>
                     Sign up for weekly email updates on safaris and adventures.
                 </Typography>
