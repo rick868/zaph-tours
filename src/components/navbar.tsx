@@ -7,7 +7,7 @@ export function Navbar () {
         position="static"
         elevation={0}
         sx={{
-            backgroundColor: "lightgray",
+            backgroundColor: "teal",
         }}>
             <Toolbar>
                 <Box

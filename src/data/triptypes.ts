@@ -3,9 +3,9 @@ export const tripTypes = [
     id: 1,
     title: "Honeymoon",
     images: [
-      "https://placehold.co/600x400/abcdef/FFFFFF?text=Romantic+Getaway",
-      "https://placehold.co/600x400/abcdef/FFFFFF?text=Luxury+Accommodations",
-      "https://placehold.co/600x400/abcdef/FFFFFF?text=Private+Experiences"
+      "/images/triptypes/honeymoon/hm1.jpeg",
+      "/images/triptypes/honeymoon/hm2.jpeg",
+      "/images/triptypes/honeymoon/hm3.jpeg"
     ],
     description: "Tailored romantic experiences for couples with luxurious accommodations, private dinners, and breathtaking locations perfect for celebrating your love.",
     price: "From $1,200 per night",
@@ -15,9 +15,9 @@ export const tripTypes = [
     id: 2,
     title: "Family",
     images: [
-      "https://placehold.co/600x400/f5f5f5/333333?text=Family+Friendly",
-      "https://placehold.co/600x400/f5f5f5/333333?text=Kid+Activities",
-      "https://placehold.co/600x400/f5f5f5/333333?text=Multi-Generational"
+      "/images/triptypes/family/fm1.jpeg",
+      "/images/triptypes/family/fm2.jpeg",
+      "/images/triptypes/family/fm3.jpeg"
     ],
     description: "Fun-filled adventures designed for families of all sizes with kid-friendly activities, spacious accommodations, and experiences everyone will enjoy.",
     price: "From $800 per night (family of 4)",
@@ -27,9 +27,9 @@ export const tripTypes = [
     id: 3,
     title: "Adventure",
     images: [
-      "https://placehold.co/600x400/333333/FFFFFF?text=Thrilling+Experiences",
-      "https://placehold.co/600x400/333333/FFFFFF?text=Outdoor+Activities",
-      "https://placehold.co/600x400/333333/FFFFFF?text=Extreme+Sports"
+      "/images/triptypes/adventure/ad1.jpeg",
+      "/images/triptypes/adventure/ad2.jpeg",
+      "/images/triptypes/adventure/ad3.jpeg"
     ],
     description: "Heart-pounding experiences for adrenaline seekers including mountain climbing, white-water rafting, and safari adventures.",
     price: "From $900 per person",
@@ -39,9 +39,9 @@ export const tripTypes = [
     id: 4,
     title: "Cultural Tours",
     images: [
-      "https://placehold.co/600x400/8B4513/FFFFFF?text=Cultural+Heritage",
-      "https://placehold.co/600x400/8B4513/FFFFFF?text=Local+Traditions",
-      "https://placehold.co/600x400/8B4513/FFFFFF?text=Historical+Sites"
+      "/images/triptypes/culturaltours/ct1.jpeg",
+      "/images/triptypes/culturaltours/ct2.jpeg",
+      "/images/triptypes/culturaltours/ct3.jpeg"
     ],
     description: "Immersive experiences showcasing Kenya's rich heritage, tribal traditions, historical sites, and authentic local interactions.",
     price: "From $700 per person",
@@ -51,9 +51,9 @@ export const tripTypes = [
     id: 5,
     title: "Wildlife Safaris",
     images: [
-      "https://placehold.co/600x400/228B22/FFFFFF?text=Big+Five",
-      "https://placehold.co/600x400/228B22/FFFFFF?text=Safari+Vehicle",
-      "https://placehold.co/600x400/228B22/FFFFFF?text=Game+Drives"
+      "/images/triptypes/wildlifesafaris/ws1.jpeg",
+      "/images/triptypes/wildlifesafaris/ws2.jpeg",
+      "/images/triptypes/wildlifesafaris/ws3.jpeg"
     ],
     description: "Premium wildlife viewing experiences in Kenya's national parks and reserves with expert trackers and luxurious safari lodges.",
     price: "From $1,500 per person (3 nights)",
@@ -63,9 +63,9 @@ export const tripTypes = [
     id: 6,
     title: "Eco-Tours",
     images: [
-      "https://placehold.co/600x400/4CAF50/FFFFFF?text=Eco+Adventure",
-      "https://placehold.co/600x400/4CAF50/FFFFFF?text=Nature+Conservation",
-      "https://placehold.co/600x400/4CAF50/FFFFFF?text=Wildlife+Protection"
+      "/images/triptypes/ecotours/et1.jpeg",
+      "/images/triptypes/ecotours/et2.jpeg",
+      "/images/triptypes/ecotours/et3.jpeg"
     ],
     description: "Explore the beauty of nature while contributing to conservation efforts. Our eco-tours focus on sustainable travel practices, allowing you to enjoy breathtaking landscapes and wildlife responsibly.",
     price: "From $1,000 per person",
@@ -75,9 +75,9 @@ export const tripTypes = [
     id: 7,
     title: "Luxury Vacations",
     images: [
-      "https://placehold.co/600x400/FFD700/FFFFFF?text=Luxury+Resort",
-      "https://placehold.co/600x400/FFD700/FFFFFF?text=Private+Villa",
-      "https://placehold.co/600x400/FFD700/FFFFFF?text=Exclusive+Experiences"
+      "/images/triptypes/luxuryvacations/lv1.jpeg",
+      "/images/triptypes/luxuryvacations/lv2.jpeg",
+      "/images/triptypes/luxuryvacations/lv3.jpeg"
     ],
     description: "Indulge in the ultimate luxury experience with our exclusive vacation packages. Enjoy private villas, gourmet dining, and personalized services tailored to your desires.",
     price: "From $2,500 per night",
@@ -87,9 +87,9 @@ export const tripTypes = [
      id: 8,
     title: "Beach Holidays",
     images: [
-      "https://placehold.co/600x400/00BFFF/FFFFFF?text=Beach+Paradise",
-      "https://placehold.co/600x400/00BFFF/FFFFFF?text=Sun+and+Sand",
-      "https://placehold.co/600x400/00BFFF/FFFFFF?text=Water+Sports"
+      "/images/triptypes/beachholidays/bh1.jpeg",
+      "/images/triptypes/beachholidays/bh2.jpeg",
+      "/images/triptypes/beachholidays/bh3.jpeg"
     ],
     description: "Relax and unwind on pristine beaches with our beach holiday packages. Enjoy sunbathing, water sports, and beachside dining in some of the most beautiful coastal destinations.",
     price: "From $800 per person",
@@ -99,9 +99,9 @@ export const tripTypes = [
     id: 9,
     title: "Wellness Retreats",
     images: [
-      "https://placehold.co/600x400/FF69B4/FFFFFF?text=Wellness+Retreat",
-      "https://placehold.co/600x400/FF69B4/FFFFFF?text=Yoga+and+Meditation",
-      "https://placehold.co/600x400/FF69B4/FFFFFF?text=Healthy+Living"
+      "/images/triptypes/wellnessretreat/wr1.jpeg",
+      "/images/triptypes/wellnessretreat/wr2.jpeg",
+      "/images/triptypes/wellnessretreat/wr3.jpeg"
     ],
     description: "Rejuvenate your mind, body, and spirit with our wellness retreats. Participate in yoga sessions, meditation workshops, and holistic therapies designed to promote relaxation and well-being.",
     price: "From $1,200 per person",
@@ -111,9 +111,9 @@ export const tripTypes = [
     id: 10,
     title: "Culinary Tours",
     images: [
-      "https://placehold.co/600x400/FF4500/FFFFFF?text=Culinary+Delights",
-      "https://placehold.co/600x400/FF4500/FFFFFF?text=Food+Tasting",
-      "https://placehold.co/600x400/FF4500/FFFFFF?text=Cooking+Classes"
+      "/images/triptypes/culinarytours/ct1.jpeg",
+      "/images/triptypes/culinarytours/ct2.jpeg",
+      "/images/triptypes/culinarytours/ct3.jpeg"
     ],
     description: "Savor the flavors of local cuisine with our culinary tours. Experience food tastings, cooking classes, and market visits that immerse you in the culinary traditions of the region.",
     price: "From $600 per person",

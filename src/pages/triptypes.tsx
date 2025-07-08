@@ -55,7 +55,7 @@ export const TripTypes: React.FC = () => {
               <Box sx={{ position: 'relative' }}>
                 <CardMedia
                   component="img"
-                  height="100%"
+                  height="450px"
                   width="100%"
                   image={trip.images[currentImageIndex[trip.id]]}
                   alt={trip.title}
@@ -92,7 +92,7 @@ export const TripTypes: React.FC = () => {
                 )}
               </Box>
               <CardContent sx={{ flexGrow: 1 }}>
-                <Typography gutterBottom variant="h4" component="div" sx={{ fontWeight: 600 }}>
+                <Typography gutterBottom variant="h4" component="div" sx={{ fontWeight: 500 }}>
                   {trip.title}
                 </Typography>
                 
@@ -114,7 +114,7 @@ export const TripTypes: React.FC = () => {
 
                 <Box component="ul" sx={{ pl: 2, mb: 2 }}>
                   {trip.offers.map((offer) => (
-                    <Typography component="li" variant="body2" key={offer}>
+                    <Typography component="li" variant="body2" sx={{textDecoration:"none"}} key={offer}>
                       {offer}
                     </Typography>
                   ))}
