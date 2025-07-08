@@ -11,7 +11,7 @@ interface DestinationCardProps {
 export const DestinationCard: React.FC<DestinationCardProps> = ({ image, name, description, groupPrice, individualPrice }) => {
     return (
         <Card>
-            <CardMedia component="img" height="140" image={image} alt={name} />
+            <CardMedia component="img" height="300" image={image} alt={name} />
             <CardContent>
                 <Typography variant="h5">{name}</Typography>
                 <Typography variant="body2">{description}</Typography>

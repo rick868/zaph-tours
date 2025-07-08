@@ -4,14 +4,14 @@ export const destinations = [
     description: "Explore the stunning peaks and diverse wildlife of Mt. Kenya.",
     groupPrice: "$1200",
     individualPrice: "$1500",
-    image: "/images/mt-kenya.jpg"
+    image: "/images/featured/mt-kenya.jpeg"
   },
   {
     name: "Mt. Ruwenzori",
     description: "Experience the breathtaking Ruwenzori Mountains and glaciers.",
     groupPrice: "$1300",
     individualPrice: "$1600",
-    image: "/images/mt-ruwenzori.jpg"
+    image: "/images/featured/Mt.Ruwenzori.jpeg"
   },
   {
     name: "Lake Nakuru",
