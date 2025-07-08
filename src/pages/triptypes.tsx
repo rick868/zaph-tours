@@ -40,10 +40,7 @@ export const TripTypes: React.FC = () => {
 
     return (
     <Box sx={{ p: 4}}>
-      <Typography variant="h3" component="h1" gutterBottom sx={{ mb: 4, textAlign: 'center', fontWeight: 'bold' }}>
-        Zaph Tours Trip Types
-      </Typography>
-      <Typography variant="h5" component="h2" gutterBottom sx={{ mb: 4, textAlign: 'center' }}>
+      <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 4, textAlign: 'center' }}>
         Explore Our Diverse Safari Experiences
       </Typography>
     
