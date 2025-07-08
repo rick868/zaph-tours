@@ -38,7 +38,6 @@ export function Navbar () {
                     <Button color="inherit" component={Link} to="/">Home</Button>
                     <Button color="inherit" component={Link} to="/destinations">Destinations</Button>
                     <Button color="inherit" component={Link} to="/trip-types">Trip Types</Button>
-                    <Button color="inherit" component={Link} to="/blog">Blog</Button>
                     <Button color="inherit" component={Link} to="/contact">Contact</Button>
                         </Box>
                 </Box>
