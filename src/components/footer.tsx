@@ -1,4 +1,6 @@
-import { Box, Typography, TextField, Button } from '@mui/material';
+import { Box, Typography, TextField, Button} from '@mui/material';
+
+
 export function Footer() {
     return (
         <Box sx={{background:"gray"}}>
@@ -12,6 +14,7 @@ export function Footer() {
                     <Button variant="contained" color="primary">Subscribe</Button>
                 </Box>
             </Box>
+            
             <Box 
                 sx={{ p: 3, 
                 textAlign: 'center' }}>

@@ -1,5 +1,6 @@
-import { Container, TextField, Button, Typography, Box, Grid } from '@mui/material';
-import { Email, Phone, LocationOn } from '@mui/icons-material';
+import { Container, TextField, Button, Typography, Box, Grid, Divider, IconButton  } from '@mui/material';
+import { Email, Phone, LocationOn, Schedule, Facebook, Twitter, Instagram, LinkedIn } from '@mui/icons-material';
+
 
 export const Contact: React.FC = () => {
     return (
@@ -70,7 +71,52 @@ export const Contact: React.FC = () => {
                         <LocationOn sx={{ mr: 1 }} />
                         <Typography>Address: Nairobi, Kenya</Typography>
                 </Box>
-            </Grid>
+
+                 <Divider sx={{ my: 3 }} />
+
+                <Box>
+
+                  {/* Office Hours */}
+                <Box sx={{display:'flex', justifyContent:'left', alignItems:'center'}}>
+                <Typography variant="h5" gutterBottom>
+                Office Hours
+                </Typography>
+
+                <Box sx={{ display: 'flex', mb: 3 }}>
+                <Schedule color="primary" sx={{ mr: 1 }}  />
+                <Box>
+                    <Typography>Monday - Friday: 8:00 AM - 5:00 PM</Typography>
+                    <Typography>Saturday: 9:00 AM - 1:00 PM</Typography>
+                    <Typography>Sunday: Closed</Typography>
+                </Box>
+                </Box>
+                </Box>
+                <Divider sx={{ my: 3 }} />
+
+                <Box sx={{display:'flex', justifyContent:'right', alignItems:'center'}}>
+                    {/* Social Media Links */}
+                    <Typography variant="h5" gutterBottom>
+                    Follow Us
+                    </Typography>
+                    
+                    <Box sx={{ display: 'flex', gap: 2 }}>
+                    <IconButton color="inherit" href="https://facebook.com" target="_blank">
+                        <Facebook fontSize="medium" />
+                    </IconButton>
+                    <IconButton color="inherit" href="https://twitter.com" target="_blank">
+                        <Twitter fontSize="medium" />
+                    </IconButton>
+                    <IconButton color="inherit" href="https://instagram.com" target="_blank">
+                        <Instagram fontSize="medium" />
+                    </IconButton>
+                    <IconButton color="inherit" href="https://linkedin.com" target="_blank">
+                        <LinkedIn fontSize="medium" />
+                    </IconButton>
+                    </Box>
+                </Box>
+
+                </Box>
+                </Grid>
         </Container>
     );
 }
