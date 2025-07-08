@@ -94,11 +94,12 @@ export const Contact: React.FC = () => {
                 <Divider sx={{ my: 3 }} />
 
                 <Box sx={{display:'flex', justifyContent:'right', alignItems:'center'}}>
+                    
                     {/* Social Media Links */}
                     <Typography variant="h5" gutterBottom>
                     Follow Us
                     </Typography>
-                    
+
                     <Box sx={{ display: 'flex', gap: 2 }}>
                     <IconButton color="inherit" href="https://facebook.com" target="_blank">
                         <Facebook fontSize="medium" />
