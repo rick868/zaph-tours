@@ -1,11 +1,11 @@
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Box } from '@mui/material';
 import { DestinationCard } from '../components/destinationscard';
 import { destinations } from '../data/destination';
 
 export const Destinations: React.FC = () => {
     return (
         <Container>
-            <Grid container spacing={2}>
+            <Grid container spacing={4}>
                 {destinations
                     .filter(
                         (dest) =>
@@ -16,9 +16,11 @@ export const Destinations: React.FC = () => {
                             typeof dest.image === 'string'
                     )
                     .map((dest) => (
-                        <Grid key={dest.name}>
-                            <DestinationCard {...dest} />
-                        </Grid>
+                        <Box key={dest.name} sx={{ mb: 6, display: 'flex', flexWrap: 'wrap', gap: 4 }}>
+                            <Box>
+                                <DestinationCard {...dest} />
+                            </Box>
+                        </Box>
                     ))}
             </Grid>
         </Container>
